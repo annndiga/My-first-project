@@ -19,3 +19,17 @@
     flex-wrap:wrap;
 
 }
+.card{
+    width:20%;
+    box-shadow:0 0 4px 3px palevioletred;
+    text-align:center;
+    padding:1.5em;
+    margin-bottom:2em;
+
+}
+.image{
+    width:70%;
+}
+.title{
+    font-size:1.3rem;
+}
