@@ -97,7 +97,7 @@ function increaseQuantity(title) {
 // Function to decrease quantity of cart item
 function decreaseQuantity(title) {
   const cartItem = cartItems.find((item) => item.title === title);
-  if (cartItem && cartItem.quantity > 1) {
+  if (cartItem && cartItem.quantity > 0) {
     cartItem.quantity--;
     renderCart();
   }
@@ -124,4 +124,3 @@ fetch('https://fakestoreapi.com/products')
     console.log(err);
   });
 
-  
