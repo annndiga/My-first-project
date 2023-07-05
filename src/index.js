@@ -13,7 +13,8 @@ function updateCartItemQuantity(title, newQuantity) {
 // Function to render cart items
 function renderCart() {
   const cartContainer = document.getElementById('cart');
-  cartContainer.innerHTML = ''; // Clear the previous cart items
+  // Clear the previous cart items
+  cartContainer.innerHTML = ''; 
 
   cartItems.forEach((item) => {
     const cartCard = document.createElement('div');
@@ -123,4 +124,3 @@ fetch('https://fakestoreapi.com/products')
   .catch((err) => {
     console.log(err);
   });
-
