@@ -28,8 +28,13 @@
 
 }
 .image{
-    width:70%;
+    width:20%;
+    height:40%;
 }
 .title{
     font-size:1.3rem;
+}
+.category,.price{
+    font-weight:bold;
+    text-transform:capitalize;
 }
