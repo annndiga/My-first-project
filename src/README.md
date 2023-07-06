@@ -10,3 +10,9 @@ SIA_SIA-SHOP is an e-commerce website that allows users to browse and purchase v
 - Remove items from the cart.
 - Fetch product data and shopping cart data from a RESTful API.
 - Use event listeners to handle user interactions.
+
+## Setup and Usage
+
+1. Clone the repository:
+
+   ```bash
