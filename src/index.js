@@ -111,7 +111,7 @@ fetch('https://fakestoreapi.com/products')
     cartItems = productData.map((product) => ({
       title: product.title,
       price: product.price,
-      quantity: 1,
+      quantity: 0,
       image: product.image,
       description: product.description,
       category: product.category,
