@@ -32,3 +32,20 @@ Browse the products, add items to the cart, and interact with the shopping cart 
 # JSON Server Project
 
 This project utilizes JSON Server to create a mock RESTful API based on a JSON file. JSON Server is a lightweight tool that allows you to quickly set up a backend server for prototyping, development, or testing purposes.
+
+# Usage
+With the JSON Server running, you can make HTTP requests to the available API endpoints using tools like fetch in JavaScript or API testing tools like Postman.
+
+Make sure to update your frontend application or code to use the appropriate API endpoints for fetching and manipulating data.
+
+## API Endpoints
+1. Product data: https://fakestoreapi.com/products
+
+##Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+
+happy coding!!
