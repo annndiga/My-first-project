@@ -14,7 +14,7 @@ function updateCartItemQuantity(title, newQuantity) {
 function renderCart() {
   const cartContainer = document.getElementById('cart');
   // Clear the previous cart items
-  cartContainer.innerHTML = ''; 
+  cartContainer.innerHTML = '';
 
   cartItems.forEach((item) => {
     const cartCard = document.createElement('div');
@@ -73,6 +73,7 @@ function renderCart() {
     quantityWrapper.appendChild(increaseButton);
     cartCard.appendChild(quantityWrapper);
 
+
     cartContainer.appendChild(cartCard);
   });
 
@@ -104,23 +105,42 @@ function decreaseQuantity(title) {
   }
 }
 
-// Fetch product data and populate cartItems array
-fetch('https://fakestoreapi.com/products')
-  .then((response) => response.json())
-  .then((productData) => {
-    cartItems = productData.map((product) => ({
-      title: product.title,
-      price: product.price,
-      quantity: 0,
-      image: product.image,
-      description: product.description,
-      category: product.category,
-      rate: product.rating.rate,
-      count: product.rating.count
-    }));
+// Event listener for DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  // Fetch product data and populate cartItems array
+  fetch('https://fakestoreapi.com/products')
+    .then((response) => response.json())
+    .then((productData) => {
+      cartItems = productData.map((product) => ({
+        title: product.title,
+        price: product.price,
+        quantity: 0,
+        image: product.image,
+        description: product.description,
+        category: product.category,
+        rate: product.rating.rate,
+        count: product.rating.count
+      }));
 
-    renderCart(); // Render the initial cart items
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+      renderCart(); // Render the initial cart items
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+
+// Event listener for click on "decrease" button
+document.addEventListener('click', (event) => {
+  if (event.target.classList.contains('decrease-btn')) {
+    const title = event.target.dataset.title;
+    decreaseQuantity(title);
+  }
+});
+
+// Event listener for click on "increase" button
+document.addEventListener('click', (event) => {
+  if (event.target.classList.contains('increase-btn')) {
+    const title = event.target.dataset.title;
+    increaseQuantity(title);
+  }
+});
