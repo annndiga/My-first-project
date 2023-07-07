@@ -75,3 +75,12 @@ body {
   text-align: center;
 }
 
+.social-media {
+  text-align: center;
+}
+.social-media img {
+  margin-right: 5px;
+  width: 15px; 
+  height: 15px; 
+ 
+}

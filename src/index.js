@@ -107,6 +107,7 @@ function decreaseQuantity(title) {
 
 // Event listener for DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
+  
   // Fetch product data and populate cartItems array
   fetch('https://fakestoreapi.com/products')
     .then((response) => response.json())
