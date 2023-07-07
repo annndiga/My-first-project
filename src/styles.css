@@ -6,7 +6,7 @@ body {
 }
 
 .heading {
-  color: greenyellow;
+  color: rgb(199, 142, 20);
   text-align: center;
   margin-bottom: 3rem;
   font-family: fantasy;
@@ -22,11 +22,11 @@ body {
 .card {
   flex: 0 0 calc(23% - 1em);
   margin-bottom: 1.5rem;
-  box-shadow: 0 0 4px yellow;
+  box-shadow: 0 0 4px rgb(80, 160, 160);
   padding: 1.5em;
   text-align: center ;
   box-sizing: border-box;
-  background-color: aquamarine;
+  background-color: rgb(160, 175, 170);
 }
 
 .card img {
@@ -41,7 +41,7 @@ body {
 .card .title {
   font-weight: bold;
   margin-bottom: 5px;
-  color:aqua
+  color:rgb(14, 11, 7)
 }
 
 .card .price {
