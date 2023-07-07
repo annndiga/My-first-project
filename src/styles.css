@@ -1,86 +1,77 @@
 
 
-.cart-card {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.heading {
+  color: greenyellow;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: fantasy;
+}
+
+#cards {
+  
   display: flex;
-  align-items: center;
-  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 calc(23% - 1em);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 4px yellow;
+  padding: 1.5em;
+  text-align: center ;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+.card img {
+  width: 50px; 
+  height: auto; 
+  max-width: 50px; 
+  max-height: 50px; 
+  border-radius: 5px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
-.cart-card .image-wrapper {
-  flex-basis: 100px;
-  margin-right: 10px;
-}
-
-.cart-card .image-wrapper img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.cart-card .card-details {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.cart-card .card-details .title {
-  font-size: 18px;
+.card .title {
   font-weight: bold;
   margin-bottom: 5px;
+  color:aqua
+}
+
+.card .price {
+  color: green;
+  margin-bottom: 5px;
+}
+
+.card .description {
+  margin-bottom: 10px;
+}
+
+.card .category {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.card .rating {
+  margin-bottom: 5px;
+}
+
+.card .count {
+  color: rgb(136, 12, 12);
+}
+
+.card .quantity {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contact-details{
   text-align: center;
 }
-
-.cart-card .card-details .description {
-  margin-bottom: 5px;
-}
-
-.cart-card .card-details .category {
-  margin-bottom: 5px;
-}
-
-.cart-card .card-details .rate {
-  margin-bottom: 5px;
-}
-
-.cart-card .card-details .count {
-  margin-bottom: 5px;
-}
-
-.cart-card .card-details .price {
-  font-weight: bold;
-}
-
-.cart-card .card-quantity {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.cart-card .card-quantity button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  font-size: 18px;
-  color: #555;
-  background-color: #eee;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cart-card .card-quantity button:hover {
-  background-color: #ddd;
-}
-
-.cart-card .card-quantity .quantity {
-  margin: 0 10px;
-  font-size: 16px;
-}
-
 

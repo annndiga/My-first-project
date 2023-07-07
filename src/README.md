@@ -27,6 +27,12 @@ SIA_SIA-SHOP is an e-commerce website that allows users to browse and purchase v
 
 Browse the products, add items to the cart, and interact with the shopping cart functionalities.
 
+## Technologies
+HTML
+Javascript
+Css
+
+
 ## Dependencies
 
 # JSON Server Project
