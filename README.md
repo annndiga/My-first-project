@@ -2,6 +2,9 @@
 
 SIA_SIA-SHOP is an e-commerce website that allows users to browse and purchase various products. This project is built using HTML, CSS, and JavaScript.
 
+## Author
+The project was authored by;Ann Wawira Ndiga
+
 ## Features
 
 - Display a list of products with their details (title, image, category, description, price, rating, count).
@@ -46,8 +49,11 @@ With the JSON Server running, you can make HTTP requests to the available API en
 
 Make sure to update your frontend application or code to use the appropriate API endpoints for fetching and manipulating data.
 
+##Project link.
+The live link is at https://annndiga.github.io/My-first-project---SIA_SIA-SHOP/
+
 ## API Endpoints
-1. Product data: https://fakestoreapi.com/products
+1. Product data: https://fakestoreapi.com/products.
 
 ##Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
