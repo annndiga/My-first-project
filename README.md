@@ -48,7 +48,7 @@ Make sure to update your frontend application or code to use the appropriate API
 The live link is at https://annndiga.github.io/My-first-project---SIA_SIA-SHOP/
 
 ## API Endpoints
-1. Product data: https://fakestoreapi.com/products
+1. Product data: https://fakestoreapi.com/products.
 
 ##Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
