@@ -2,6 +2,9 @@
 
 SIA_SIA-SHOP is an e-commerce website that allows users to browse and purchase various products. This project is built using HTML, CSS, and JavaScript.
 
+## Author
+The project was authored by;Ann Wawira Ndiga
+
 ## Features
 
 - Display a list of products with their details (title, image, category, description, price, rating, count).
