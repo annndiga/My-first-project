@@ -44,6 +44,9 @@ With the JSON Server running, you can make HTTP requests to the available API en
 
 Make sure to update your frontend application or code to use the appropriate API endpoints for fetching and manipulating data.
 
+##Project link.
+The live link is at https://annndiga.github.io/My-first-project---SIA_SIA-SHOP/
+
 ## API Endpoints
 1. Product data: https://fakestoreapi.com/products
 
